@@ -1,0 +1,46 @@
+body{
+    height: 100%;
+    width: 50%;
+    margin: 80px;
+    padding: 80px;
+}
+
+#header{
+  color: rgb(153, 109, 51);
+}
+
+#div1{
+    display: flex;
+}
+#ins{
+    flex: 1;
+    color: red;
+    font-size: 20px;
+}
+#droDow{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#textBox{
+    height: 30%;
+    font-size: 20px;
+    width: 100%;
+    background-color: rgb(0, 255, 242);
+}
+#outPutBox{
+    height: 20%;
+    font-size: 15px;
+    font-weight: 100;
+    color: white;
+    width: 100%;
+    margin-top: 10px;
+    background-color: black;
+}
+#outPutBox::placeholder {
+    color: white;
+}
+#CompileBtn{
+    margin-top: 18px;
+    background-color:yellowgreen;
+    padding: 7px 18px;
+}
